@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clRegistro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <RelativeLayout
+        android:id="@+id/rlRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/txt_tituloApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivRegistro"
+            android:layout_width="182dp"
+            android:layout_height="129dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            app:srcCompat="@mipmap/news" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/clRegistro2"
+            android:layout_width="300dp"
+            android:layout_height="232dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="131dp"
+            android:layout_marginTop="0dp"    >
+
+            <EditText
+                android:id="@+id/etxtUser"
+                android:layout_width="302dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/nombre_registro"
+                android:singleLine="true"
+                app:layout_constraintBottom_toTopOf="@+id/etxtEmail"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etxtEmail"
+                android:layout_width="302dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/email_usuario"
+                android:singleLine="true"
+                app:layout_constraintBottom_toTopOf="@+id/etxtContraseña1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etxtUser" />
+
+
+            <EditText
+                android:id="@+id/etxtContraseña1"
+                android:layout_width="302dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/contraseña1_registro"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etxtEmail" />
+
+            <EditText
+                android:id="@+id/etxtContraseña2"
+                android:layout_width="302dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/contraseña2_registro"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etxtContraseña1" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <Button
+            android:id="@+id/btnRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="67dp"
+            android:background="@color/colorAccent"
+            android:onClick="btnRegistro"
+            android:text="@string/boton_registro" />
+
+        <ImageView
+            android:id="@+id/iv_fcb"
+            android:layout_width="39dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/ivRegistro"
+            android:layout_below="@+id/btnRegistro"
+            android:layout_marginTop="-67dp"
+            app:srcCompat="@mipmap/fcb" />
+
+        <ImageView
+            android:id="@+id/iv_twitter"
+            android:layout_width="85dp"
+            android:layout_height="57dp"
+            android:layout_below="@+id/btnRegistro"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-67dp"
+            app:srcCompat="@mipmap/twitter" />
+
+        <ImageView
+            android:id="@+id/iv_instagram"
+            android:layout_width="42dp"
+            android:layout_height="39dp"
+            android:layout_alignBottom="@+id/iv_fcb"
+            android:layout_toEndOf="@+id/txt_tituloApp"
+            app:srcCompat="@mipmap/instagram" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

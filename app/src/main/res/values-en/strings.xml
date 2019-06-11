@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hunting News</string>
+    <!-- splash-->
+    <string name="txt_bienvenido">Welcome</string>
+    <string name="cargando">Loading...</string>
+    <!-- login-->
+    <string name="label_ingresar">Enter</string>
+    <string name="instrucciones_usuario">Enter Email and Password</string>
+    <string name="email_usuario">E-mail</string>
+    <string name="password_usuario">Password</string>
+    <string name="vacio_email">You must enter an email</string>
+    <string name="vacio_contraseña">You must enter a password</string>
+    <string name="pb_ingresando">Entering ...</string>
+    <string name="validacion_datos">Please enter your information correctly</string>
+    <string name="btn_ingresar">ENTER</string>
+    <string name="btn_olvido_contraseña"><u>¿Forgot your password??</u></string>
+    <string name="btn_registrar_usuario"><u>Create Account </u></string>
+
+    <!-- registro-->
+    <string name="label_registro">Create an account</string>
+    <string name="nombre_registro">Name</string>
+    <string name="email_registro">Email</string>
+    <string name="contraseña1_registro">Password</string>
+    <string name="contraseña2_registro">Repeat Password</string>
+    <string name="vacio_nombreUser">You must enter your name</string>
+    <string name="boton_registro">SAVE</string>
+    <!-- main-->
+    <string name="titulo_noticia_main">Title of the News</string>
+    <string name="descripcion_noticia">Describe the News</string>
+    <string name="fecha_main">Enter date</string>
+    <string name="btn_limpiar">CLEAN</string>
+    <string name="main_titulo">Enter a title</string>
+    <string name="main_date">Enter a date</string>
+    <string name="main_descripcion">Enter a description</string>
+    <string name="ingreso_noticia_exitoso">The news has been successfully registered</string>
+    <string name="tiempoPrimerClick">Press again to exit</string>
+</resources>

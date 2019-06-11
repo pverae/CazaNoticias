@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Caza Noticias</string>
+
+    <!-- splash-->
+      <string name="txt_bienvenido">Bienvenido</string>
+      <string name="cargando">Cargando...</string>
+
+      <!-- login-->
+    <string name="label_ingresar">Ingresar</string>
+    <string name="instrucciones_usuario">Ingrese correo y contraseña</string>
+    <string name="email_usuario">Correo</string>
+    <string name="password_usuario">Contraseña</string>
+    <string name="vacio_email">Debe ingresar un correo</string>
+    <string name="vacio_contraseña">Debe ingresar una contraseña</string>
+    <string name="pb_ingresando">Ingresando...</string>
+    <string name="validacion_datos">Favor ingresar sus datos correctamente</string>
+    <string name="btn_ingresar">INGRESAR</string>
+    <string name="btn_olvido_contraseña"><u>¿olvidó su contraseña?</u></string>
+    <string name="btn_registrar_usuario"><u>Crear cuenta </u></string>
+
+   <!-- registro-->
+    <string name="label_registro">Crear una cuenta</string>
+    <string name="nombre_registro">Nombre</string>
+    <string name="email_registro">Correo</string>
+    <string name="contraseña1_registro">Contraseña</string>
+    <string name="contraseña2_registro">Repita Contraseña</string>
+    <string name="vacio_nombreUser">Debe ingresar su nombre</string>
+    <string name="boton_registro">Registrarse</string>
+    <!-- main-->
+    <string name="titulo_noticia_main">Titulo de la noticia</string>
+    <string name="descripcion_noticia">Describa la noticia</string>
+    <string name="fecha_main">Ingrese fecha</string>
+    <string name="btn_limpiar">LIMPIAR</string>
+    <string name="main_titulo">Ingrese un titulo</string>
+    <string name="main_date">Ingrese una fecha</string>
+    <string name="main_descripcion">Ingrese una descripción</string>
+    <string name="ingreso_noticia_exitoso">La noticia se ha registrado con exito</string>
+    <string name="tiempoPrimerClick">Vuelva a presionar para salir</string>
+
+</resources>
